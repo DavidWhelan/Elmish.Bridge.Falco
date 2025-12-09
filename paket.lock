@@ -1,0 +1,18 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Elmish (5.0.2) - restriction: >= net6.0
+    Elmish.Bridge.RPC (7.0) - restriction: >= net6.0
+    Elmish.Bridge.Server (7.0)
+      Elmish (>= 4.0) - restriction: >= net6.0
+      Elmish.Bridge.RPC (>= 7.0) - restriction: >= net6.0
+      Fable.Remoting.Json (>= 2.23) - restriction: >= net6.0
+    Fable.Remoting.Json (2.25) - restriction: >= net6.0
+      FSharp.Core (>= 6.0) - restriction: || (>= net462) (>= netstandard2.0)
+      Newtonsoft.Json (>= 13.0.3) - restriction: || (>= net462) (>= netstandard2.0)
+    Falco (5.1)
+      Falco.Markup (>= 1.4) - restriction: >= net8.0
+      FSharp.Core (>= 6.0) - restriction: >= net8.0
+    Falco.Markup (1.4) - restriction: >= net8.0
+      FSharp.Core (>= 4.5.2) - restriction: >= netstandard2.0
+    FSharp.Core (10.0.100)
+    Newtonsoft.Json (13.0.4) - restriction: >= net6.0
